@@ -1,0 +1,4 @@
+Metric,Baseline (Validation),Fine-Tuned (Validation),Baseline (Test),Fine-Tuned (Test)
+Exact Match (EM),0.09,61.3,0.2,61.14
+F1 Score,0.12,75.31,0.22,70.65
+Is Impossible Accuracy,39.15,91.43,39.31,82.2
