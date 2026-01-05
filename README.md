@@ -217,6 +217,52 @@ When answers appear multiple times in context:
 
 ---
 
+## 📦 Models & Dataset Availability
+
+To support reproducibility and further research, both the **fine-tuned models** and the **TeQuAD dataset** are publicly released.
+
+### 🤖 Fine-Tuned Models
+
+Pretrained and fine-tuned QA models used in this work are available on Hugging Face:
+
+* **Model Hub:**
+  [https://huggingface.co/SanRish/Te-QAS-models/tree/main](https://huggingface.co/SanRish/Te-QAS-models/tree/main)
+
+These include:
+
+* XLM-R Large fine-tuned on TeQAS data (Telugu SQuAD 2.0)
+* MuRIL Large fine-tuned on TeQAS data
+
+---
+
+### 📊 TeQuAD Dataset
+
+The complete Telugu QA dataset is publicly available, including:
+
+* Train / Validation / Test splits
+
+* Original SQuAD 2.0–aligned structure
+
+* **INDIC-Facts Telugu QA** synthetic factual dataset
+
+* **Dataset Hub:**
+  [https://huggingface.co/datasets/SanRish/Te-QAS/tree/main](https://huggingface.co/datasets/SanRish/Te-QAS/tree/main)
+
+The dataset follows the standard **SQuAD 2.0 JSON format**, making it directly compatible with existing extractive QA pipelines and evaluation scripts.
+
+---
+
+### 🔁 Reproducibility
+
+All models and datasets are released to enable:
+
+* Reproducible evaluation
+* Fair benchmarking on Telugu QA
+* Extension to other Indic and low-resource languages
+
+---
+
+
 ## 📜 License & Usage
 
 * Intended for **research and academic use**
